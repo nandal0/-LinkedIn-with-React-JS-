@@ -1,0 +1,108 @@
+.logo>img{
+    width: 55%;
+    height: 12%;
+    margin-left: 80px;
+}
+.nav{
+margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1240px;
+}
+
+.seachbar{
+    /* margin-right: 190px; */
+    /* margin-left: 150px; */
+    display: flex;
+    margin-right:50px;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color:#ebeff1;
+    width: 450rem;
+    height: 2.6rem;
+    border-radius:5px;
+    padding: 1rem;
+}
+.seachbar>input{
+    width: 80%;
+    height: 2rem;
+    border: none;
+    background-color: #ebeff1;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    outline: none;
+
+}
+.learning{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 3rem; */
+    background-color: #ebeff1;
+    border-radius: 5px;
+    /* padding: 1rem; */
+}
+.learning>p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2d2d2d;
+    padding-right: 5px;
+}
+
+.vl {
+    border-left: 1.8px solid rgb(176, 176, 176);
+    height: 2.2rem;
+  }
+  .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-color: #ebeff1;
+    padding-left: 10px;
+  }
+
+  .buttons{
+      cursor: pointer;
+      /* margin-left: 50px; */
+      /* padding-right: ; */
+      padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.4rem;
+
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  .trail,.sign{
+    height: 2.4rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    /* background-color: #ffffff; */
+    border-radius: 5px;
+    margin-left: 5px;
+    /* padding: 1rem; */
+  }
+  .trail{
+    background-color: #ffffff;
+      color: #3b3131
+  }
+  .sign{
+    background-color: #ffffff;
+    border: 1px solid #3880c3;
+    color: #3b7bba;
+  
+      border-radius: 50px;
+  }
+  
+
+  .trail,.sign:hover{
+      color:black;
+    background-color: #ebeff1;
+  }
